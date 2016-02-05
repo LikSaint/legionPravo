@@ -1,0 +1,74 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: EuropaNuovaExtraBold;
+    src: url("fonts/EuropaNuovaExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: MyriadProRegular;
+    src: url("fonts/Myriad Pro Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadProSemibold;
+    src: url("fonts/Myriad Pro Semibold.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadProBold;
+    src: url("fonts/Myriad Pro Bold.otf") format("opentype");
+}
+
+body{
+    font-family: MyriadProRegular;
+    color: #041b43;
+    min-height: 100%;
+}
+p{
+    font-size: 49px;
+    color: #041b43;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color: #041b43;
+    font-size:14px;
+}
+a:hover {
+    text-decoration: underline;
+    outline: none;
+    color: #041b43;
+    font-size:14px;
+}
+#warp{
+    width: 1287px;
+    margin: 0 auto;
+}
+#header{
+    height: 559px;
+}
+#headerTop{
+    height: 104px;
+}
+#sliderBox{
+    height: 455px;
+}
+#headerFirmName {
+    float: left;
+    margin: 49px 0 10px 54px;
+    font-family: MyriadProSemibold;
+}
+#headText {
+    font-size: 27px;
+    margin: 49px 0 0 30%;
+}
+#phoneBox {
+    float: right;
+    margin: 0px 58px 0 0;
+}
+#phone {
+    float: right;
+}
+#headPhoneNumber {
+    float: right;
+    margin: 10px 0 10px 0;
+    font-family: MyriadProBold;
+}
